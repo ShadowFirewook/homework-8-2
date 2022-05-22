@@ -12,7 +12,7 @@ public class HuTao extends kg.geektech.game.players.Hero {
     }
 
     public HuTao(String name, int health, int damage){
-        super(name, health, damage, SuperAbility.Танец_бабочки);
+        super(name, health, damage, SuperAbility.РўР°РЅРµС†_Р±Р°Р±РѕС‡РєРё);
     }
     @Override
     public void applySuperPower(kg.geektech.game.players.Boss boss, kg.geektech.game.players.Hero[] heroes) {
@@ -26,6 +26,6 @@ public class HuTao extends kg.geektech.game.players.Hero {
         if (boss.getHealth() <= 0){
             this.setHealth(this.getHealth() + getHuTaoFullHPValue() / 100 * 2);
         }
-        System.out.println("Ху Тао применила свою способность");
+        System.out.println("РҐСѓ РўР°Рѕ РїСЂРёРјРµРЅРёР»Р° СЃРІРѕСЋ СЃРїРѕСЃРѕР±РЅРѕСЃС‚СЊ");
     }
 }
