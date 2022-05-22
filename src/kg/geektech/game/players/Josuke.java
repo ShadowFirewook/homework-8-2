@@ -18,9 +18,9 @@ public class Josuke extends kg.geektech.game.players.Hero {
             heroes[i].setHealth(heroes[i].getHealth() - crazyDiamond);
             if ( heroes[i].getHealth() >= 0 ){
                 heroes[i].setHealth(heroes[i].getHealth() + boss.getDamage() * 2);
-                System.out.println("Джоске вернул количество здоровья герою " + heroes[i].getName() + " которое было у него до начала раунда");
+                System.out.println("Р”Р¶РѕСЃРєРµ РІРµСЂРЅСѓР» РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РґРѕСЂРѕРІСЊСЏ РіРµСЂРѕСЋ " + heroes[i].getName() + " РєРѕС‚РѕСЂРѕРµ Р±С‹Р»Рѕ Сѓ РЅРµРіРѕ РґРѕ РЅР°С‡Р°Р»Р° СЂР°СѓРЅРґР°");
             }else {
-                System.out.println("Герой" + heroes[i].getName() + " умер от действий стенда");
+                System.out.println("Р“РµСЂРѕР№" + heroes[i].getName() + " СѓРјРµСЂ РѕС‚ РґРµР№СЃС‚РІРёР№ СЃС‚РµРЅРґР°");
             }
         }
     }
